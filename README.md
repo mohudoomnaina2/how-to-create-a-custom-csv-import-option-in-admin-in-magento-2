@@ -7,12 +7,43 @@ YourVendorName[Eg: WonderAndInstaSoft]
 |   |-- composer.json
 |   |-- registration.php
 |   |-- etc
-|   |   |-- module.xml
-|   |-- etc
 |       |-- adminhtml
 |       |   |-- routes.xml
 |       |   |-- menu.xml
 |       |-- acl.xml
+|       |-- db_schema.xml
+|       |-- db_schema_whitelist.json
+|       |-- module.xml
+|   |-- Block
+|       |-- Adminhtml
+|       |   |-- ImportCategory
+|       |   |   |-- Grid.php
+|       |   |   |-- ImportCategoryForm.php
+|       |   |   |-- StatusDataRenderer.php
+|   |-- Controller
+|       |-- Adminhtml
+|       |   |-- ImportCategory
+|       |   |   |-- AddImportCategory.php
+|       |   |   |-- Index.php
+|       |   |   |-- MassDelete.php
+|       |   |   |-- SaveImportCategory.php
+|       |   |   |-- UpdateImportCategory.php
+|   |-- Model
+|       |-- ResourceModel
+|       |   |-- ImportCategory
+|       |   |   |-- Collection.php
+|       |   |-- ImportCategory.php
+|       |-- ImportCategory.php
+|   |-- view
+|       |-- adminhtml
+|       |   |-- layout
+|       |   |   |-- customimportcategory_importcategory_index.xml
+|       |   |-- templates
+|       |   |   |-- customimportcategory_view.phtml
+|       |   |-- web
+|       |   |   |-- ImportCategorySampleCsvFile
+|       |   |   |   |-- ImportCategorySampleCsvFile.csv
+|       |   |   |   |-- ImportCategorySampleCsvFile2.csv
 ```
 
 ## Procedures
