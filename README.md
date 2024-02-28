@@ -64,5 +64,5 @@ YourVendorName[Eg: WonderAndInstaSoft]
 ## Admin Import Category Output:-
 ![Screenshot (206)](https://github.com/mohudoomnaina2/how-to-create-a-custom-csv-import-option-in-admin-in-magento-2/assets/70482911/e2b442e3-cc85-43ab-a2c4-fc47710fa7ca)
 <br>
-## Admin Import Category Index Page Output:-
+## Admin Import Category View Page Output:-
 ![Screenshot (207)](https://github.com/mohudoomnaina2/how-to-create-a-custom-csv-import-option-in-admin-in-magento-2/assets/70482911/333124fd-bd29-4058-b062-90a1dbfeb0a9)
