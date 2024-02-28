@@ -62,5 +62,5 @@ YourVendorName[Eg: WonderAndInstaSoft]
 ![Final_Output1](https://github.com/mohudoomnaina2/how-to-create-a-new-admin-menu-submenu-in-magento-2/assets/70482911/c7047162-9abf-4b2d-89da-0110c96fc9f8)
 <br>
 ## Admin Import Category Output:-
-![Screenshot (206)](https://github.com/mohudoomnaina2/how-to-create-a-custom-csv-import-option-in-admin-in-magento-2/assets/70482911/030c37ef-da5c-456e-905e-d9bce2fcb00d)
+![Screenshot (206)](https://github.com/mohudoomnaina2/how-to-create-a-custom-csv-import-option-in-admin-in-magento-2/assets/70482911/e2b442e3-cc85-43ab-a2c4-fc47710fa7ca)
 <br>
