@@ -1,0 +1,22 @@
+{
+    "importcategory": {
+        "column": {
+            "id": true,
+            "itemcode": true,
+            "barcode": true,
+            "category_1": true,
+            "category_2": true,
+            "category_3": true,
+            "category_4": true,
+            "status": true,
+            "remarks": true,
+            "date": true,
+            "productcode": true,
+            "eancode": true,
+            "articlecode": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

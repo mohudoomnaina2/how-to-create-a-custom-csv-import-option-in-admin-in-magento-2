@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <!--Main Menu Start-->
+        <add id="WonderAndInstaSoft_CustomImportCategory::import_category" title="WonderAndInstaSoft" module="WonderAndInstaSoft_CustomImportCategory" sortOrder="20" resource="WonderAndInstaSoft_CustomImportCategory::import_category"/>
+        <!--Main Menu End-->
+        
+        <!--Sub Menu Start-->
+        <add id="WonderAndInstaSoft_CustomImportCategory::import_category_sub" title="Import Category" module="WonderAndInstaSoft_CustomImportCategory" sortOrder="20" parent="WonderAndInstaSoft_CustomImportCategory::import_category" action="customimportcategory/importcategory/index" resource="WonderAndInstaSoft_CustomImportCategory::import_category_sub"/>
+        <!--Sub Menu End-->
+    </menu>
+</config>

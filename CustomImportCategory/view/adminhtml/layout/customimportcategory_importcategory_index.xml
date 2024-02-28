@@ -1,0 +1,22 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="styles"/>
+    <body>
+        <!--View phtml Way Start-->
+            <!--<referenceContainer name="content">-->
+            <!--    <block class="Magento\Framework\View\Element\Template" name="customimportcategory.importcategory.index" template="WonderAndInstaSoft_CustomImportCategory::customimportcategory_view.phtml"/>-->
+            <!--</referenceContainer>-->
+        <!--View phtml Way End-->
+        
+        <!--View Block Admin Grid Way Start-->
+            <referenceContainer name="content">
+                <block class="WonderAndInstaSoft\CustomImportCategory\Block\Adminhtml\ImportCategory\Grid" name="customimportcategory_importcategory_listing"/>
+            </referenceContainer>
+        <!--View Block Admin Grid Way End-->
+        
+        <!--View UI_Component Admin Grid Way Start-->
+            <!--<referenceContainer name="content">-->
+            <!--    <uiComponent name="customimportcategory_importcategory_listing"/>-->
+            <!--</referenceContainer>-->
+        <!--View UI_Component Admin Grid Way End-->
+    </body>
+</page>

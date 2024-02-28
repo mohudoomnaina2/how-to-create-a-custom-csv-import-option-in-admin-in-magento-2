@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="importcategory" resource="default" comment="Import Category" charset="utf8">
+        <column name="id" xsi:type="int" comment="ID" padding="5" unsigned="true" identity="true" nullable="false"></column>
+        <column name="productcode" xsi:type="varchar" comment="Product Code" nullable="true" length="255"></column>
+        <column name="eancode" xsi:type="varchar" nullable="true" comment="EAN Code" length="255"></column>
+        <column name="articlecode" xsi:type="varchar" nullable="true" comment="Article Code" length="255"></column>
+        <column name="category_1" xsi:type="varchar" comment="Category1" nullable="true" length="255"></column>
+        <column name="category_2" xsi:type="varchar" comment="Category2" nullable="true" length="255"></column>
+        <column name="category_3" xsi:type="varchar" nullable="true" comment="Category3" length="255"></column>
+        <column name="category_4" xsi:type="varchar" comment="Category4" nullable="true" length="255"></column>
+        <column xsi:type="int" name="status" unsigned="true" nullable="true" identity="false" default="0" comment="Status"></column>
+        <column name="remarks" xsi:type="text" nullable="true" comment="Remarks"></column>
+        <column name="date" xsi:type="date" nullable="true" comment="Date" ></column>
+        <!--<column name="date" xsi:type="timestamp" comment="Date" default="CURRENT_TIMESTAMP"></column>-->
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+          <column name="id" />
+        </constraint>
+    </table>
+</schema>
